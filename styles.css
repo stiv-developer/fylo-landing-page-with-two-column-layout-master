@@ -89,8 +89,13 @@ body {
     padding-bottom: 12px;
     border-radius: 5px;
     padding-left: 15px;
-    color: var(--Light-Gray);
+    color: black;
     border: 1px solid var(--Desaturated-Blue);
+}
+
+.main.first .group-header .send-email input:focus{
+    outline: none;
+    border: 1px solid var(--Desaturated-Blue) !important;
 }
 
 .main.first .group-header .send-email button {
@@ -272,8 +277,14 @@ body {
     padding-bottom: 10px;
     border-radius: 2px;
     padding-left: 15px;
-    color: var(--Light-Gray);
+    color: black;
     border: 1px solid var(--Desaturated-Blue);
+}
+
+.section .group-section form input:focus {
+    outline: none;
+    color: var(--Light-Gray);
+    color: black;
 }
 
 .section .group-section form input:hover {
